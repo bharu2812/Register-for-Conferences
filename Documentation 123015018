@@ -1,0 +1,39 @@
+1.Open Command Prompt
+
+2.create virtual environment
+	py -m venv Django_files 
+
+3.activate virtual environment 
+	Django_files\Scripts\activate
+
+4.Goto 123015018 Folder
+
+5.Install Django and verify version
+	pip install django
+	django-admin --version
+
+6.create a new project 
+	django-admin startproject CO
+
+7.Get into project folder 
+	cd CO
+
+8.Create a new app inside the project 
+	python manage.py startapp conference_details 
+
+9.After Creating the Model- Conference, Migrate the Changes
+	python manage.py makemigrations
+	python manage.py migrate
+
+10.Create SuperUser
+	python manage.py createsuperuser
+
+11.Run the Server
+	python manage.py runserver
+
+
+
+
+
+
+
